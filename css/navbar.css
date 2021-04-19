@@ -1,0 +1,8 @@
+.bg ungu{
+    background-color:#2a7806 !important;
+    transition: 0,3s;
+}
+
+.bg-ungu:hover{
+    background-color:#2a7806 !important;
+}

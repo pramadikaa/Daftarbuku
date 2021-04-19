@@ -1,0 +1,129 @@
+nav .nav-item a {
+    padding: 0 12px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+}
+a {
+    background-color: #2a7806;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    margin: auto;
+}
+
+.content h1 {
+    font-weight: bold;
+}
+
+.content p {
+    font-size: 16px;
+    padding: 30px 0px;
+}
+
+.content button {
+    background-color: #2a7806;
+    border-radius: 60px;
+    padding: 16px 32px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.image {
+    margin: auto;
+}
+/* .desc{
+    max-width: 400px;
+}
+
+.tebel-banget{
+    font-weight: 900;
+}
+
+.tebel-banget{
+    font-weight:bold ;
+}
+
+.button{
+    background-color:#2a7806;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.button:haver{
+    background-color:#2a7806;
+    color: white;
+}
+
+.gambar{
+    display: none;
+}
+
+.img{
+    width: 700px;
+    z-index: -1;
+}
+
+.link{
+    columns:#2a7806;
+    transition: 0.3s;
+}
+
+.button:haver{
+    color:#2a7806;
+} */
+
+
+
+/* mengatur responsive */
+@media screen and (max-wigth: 600px) {
+    .img{
+        display: none;
+        width: 500px;
+    }
+
+    .gambar{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .img{
+        display: none;
+        width: 500px;
+    }
+
+    .gambar{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .img{
+        width: 500px;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .img{
+        width: 300px;
+        z-index: -1;
+    }  
+}
